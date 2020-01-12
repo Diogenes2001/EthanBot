@@ -1,0 +1,127 @@
+{
+    "body": [
+        {
+            "num": 0,
+            "text": ["Hi there! I'm Ethan, a 2B Computer Science student at the University of Waterloo. What would you like to talk about?", "(Use the buttons to navigate, 'back' to go to the previous dialog, and 'home' to return to this screen.)"],
+            "buttons": ["About Me", "Work Experience", "Hackathons and Projects", "Awards", "Contact"],
+            "choices": {
+                "about me": 1,
+                "work experience": 2,
+                "hackathons and projects": 5,
+                "awards": 12,
+                "contact": 13
+            },
+            "last": 0
+        },
+        {
+            "num": 1,
+            "text": ["I'm originally from Brandon, Manitoba, and moved to Waterloo for university. \nSome of my interests include singing, cooking, trivia, and playing board games. In my free time, I do martial arts and sing in the UW A Cappella Club. I enjoy talking to different people and learning about new ideas, as well as making new friends along the way!"],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 0
+        },
+        {
+            "num": 2,
+            "text": ["Before coming to university, I worked part-time as a private tutor.", "In the summer of 2019, I worked as a RPA/Chatbot Developer at The Co-operators as part of UW's co-op program.", "What would you like to know more about?"],
+            "buttons": ["Private Tutor", "The Co-operators", "Back"],
+            "choices": {
+                "private tutor": 3,
+                "the co-operators": 4
+            },
+            "last": 0
+        },
+        {
+            "num": 3,
+            "text": ["I used to work part-time as a tutor, with a focus on math courses. Not only did I help people with their homework, I helped them to understand the underlying concepts. According to one of my students, our sessions helped improve his grades by almost 20%. ",
+                    "Besides math courses, I also designed a curriculum to help young students learn Scratch. It taught basic concepts such as variables, conditional staements, and control flow. The final project had them create their own video game, which seemed very popular!"],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 2
+        },
+        {
+            "num": 4,
+            "text": ["My first co-op job was at The Co-operators, an insurance company based in Guelph, Ontario. I worked out of their Kitchener Development Centre, where I spent 4 months gaining valuable work experience.",
+                    "In my first couple of weeks, I quickly learned how to perform version control using Git. Since I worked in an Agile team environment, we used Jira to manage our work, and I got used to assigning points and writing user stories. Ultimately, these skills helped me become a better developer.",
+                    "Half of my work there focused on Robotic Process Automation (RPA) using UiPath. RPA allows repetitive processes such as sending emails and reading Excel files to be automated, saving company time and money. In particular, I developed a process that automatically updates documents, which reduced the processing time by 60%.",
+                    "The other half of my work there focused on chatbots. I used Microsoft Bot Framework to develop a chatbot in JavaScript that helps employees quickly generate insurance quotes, drastically reducing turnaround time. (I used the skills from this experience to develop the chatbot you're talking with now!)"],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 2
+        },
+        {
+            "num": 5,
+            "text": ["My first hackathon experience was at uwEnergyHacks in summer 2019, where I developed Recyclops, an Android app capable of identifying litter as recycling, compost, or garbage. For this app, our team won the award for Best Design!",
+                    "At the 2019 Intact Datathon, I built Autobot, a machine learning model to predict auto insurance payouts, with an accuracy of within $2000. I also designed a simple, intuitive UI for using the model. ",
+                    "At Hack the 6ix 2019, I worked on asteRisk*, a website that generated insurance quotes for properties based on their listings and geographic locations, using data such as crime rates and proximity to fire stations.",
+                    "At Hack the North 2019, I developed GroceryGo, an Android app that takes a grocery list and finds the best supermarket to get everything for the lowest price. It used web scraping to upload data from website into a database, which was automatically updated on a daily basis.",
+                    "Besides at hackathons, I also work on some projects on my own time. These include TheDungeon, a text-based adventure game I created in high school, and EthanBot, the chatbot you're talking to right now!"],
+            "buttons": ["Recyclops", "Autobot", "asteRisk", "GroceryGo", "TheDungeon", "EthanBot"],
+            "choices": {
+                "recyclops": 6,
+                "autobot": 7,
+                "asterisk": 8,
+                "grocerygo": 9,
+                "thedungeon": 10,
+                "ethanbot": 11
+            },
+            "last": 0
+        },
+        {
+            "num": 6,
+            "text": [],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 7,
+            "text": [],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 8,
+            "text": [],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 9,
+            "text": [],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 10,
+            "text": [],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 11,
+            "text": [],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 12,
+            "text": [],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 0
+        },
+        {
+            "num": 13,
+            "text": [],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 0
+        }
+
+    ]
+}
