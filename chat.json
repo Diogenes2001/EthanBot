@@ -1,0 +1,168 @@
+{
+    "body": [
+        {
+            "num": 0,
+            "text": ["Hi there! I'm Ethan, a 2B Computer Science student at the University of Waterloo. What would you like to talk about?", "(Use the buttons to navigate, 'back' to go to the previous dialog, and 'home' to return to this screen.)"],
+            "buttons": ["About Me", "Work Experience", "Hackathons and Projects", "Awards", "Contact"],
+            "choices": {
+                "about me": 1,
+                "work experience": 2,
+                "hackathons and projects": 5,
+                "awards": 13,
+                "contact": 14
+            },
+            "last": 0
+        },
+        {
+            "num": 1,
+            "text": ["I'm originally from Brandon, Manitoba, and moved to Waterloo for university. Some of my interests include singing, cooking, trivia, and playing board games. ",
+                    "In my free time, I do martial arts and sing in the UW A Cappella Club. I enjoy talking to different people and learning about new ideas, as well as making new friends along the way!"],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 0
+        },
+        {
+            "num": 2,
+            "text": ["Before coming to university, I worked part-time as a private tutor.", "In the summer of 2019, I worked as a RPA/Chatbot Developer at The Co-operators as part of UW's co-op program.", "What would you like to know more about?"],
+            "buttons": ["Private Tutor", "The Co-operators", "Back"],
+            "choices": {
+                "private tutor": 3,
+                "the co-operators": 4
+            },
+            "last": 0
+        },
+        {
+            "num": 3,
+            "text": ["I used to work part-time as a tutor, with a focus on math courses. Not only did I help people with their homework, I helped them to understand the underlying concepts. According to one of my students, our sessions helped improve his grades by almost 20%. ",
+                    "Besides math courses, I also designed a curriculum to help young students learn Scratch. It taught basic concepts such as variables, conditional staements, and control flow. The final project had them create their own video game, which seemed very popular!"],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 2
+        },
+        {
+            "num": 4,
+            "text": ["My first co-op job was at The Co-operators, an insurance company based in Guelph, Ontario. I worked out of their Kitchener Development Centre, where I spent 4 months gaining valuable work experience.",
+                    "In my first couple of weeks, I quickly learned how to perform version control using Git. Since I worked in an Agile team environment, we used Jira to manage our work, and I got used to assigning points and writing user stories. Ultimately, these skills helped me become a better developer.",
+                    "Half of my work there focused on Robotic Process Automation (RPA) using UiPath. RPA allows repetitive processes such as sending emails and reading Excel files to be automated, saving company time and money. In particular, I developed a process that automatically updates documents, which reduced the processing time by 60%.",
+                    "The other half of my work there focused on chatbots. I used Microsoft Bot Framework to develop a chatbot in JavaScript that helps employees quickly generate insurance quotes, drastically reducing turnaround time. (I used the skills from this experience to develop the chatbot you're talking with now!)"],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 2
+        },
+        {
+            "num": 5,
+            "text": ["My first hackathon experience was at uwEnergyHacks in summer 2019, where I developed Recyclops, an Android app capable of identifying litter as recycling, compost, or garbage. For this app, our team won the award for Best Design!",
+                    "At the 2019 Intact Datathon, I built Autobot, a machine learning model to predict auto insurance payouts, with an accuracy of within $2000. I also designed a simple, intuitive UI for using the model. ",
+                    "At Hack the 6ix 2019, I worked on asteRisk*, a website that generated insurance quotes for properties based on their listings and geographic locations, using data such as crime rates and proximity to fire stations.",
+                    "At Hack the North 2019, I developed GroceryGo, an Android app that takes a grocery list and finds the best supermarket to get everything for the lowest price. It used web scraping to upload data from website into a database, which was automatically updated on a daily basis.",
+                    "For my CS246E final project, I created vm, a text editor for Linux based on the vim editor.",
+                    "Besides at hackathons, I also work on some projects on my own time. These include TheDungeon, a text-based adventure game I created in high school, and EthanBot, the chatbot you're talking to right now!"],
+            "buttons": ["Recyclops", "Autobot", "asteRisk", "GroceryGo", "TheDungeon", "vm", "EthanBot", "Back"],
+            "choices": {
+                "recyclops": 6,
+                "autobot": 7,
+                "asterisk": 8,
+                "grocerygo": 9,
+                "thedungeon": 10,
+                "ethanbot": 11,
+                "vm": 12
+            },
+            "last": 0
+        },
+        {
+            "num": 6,
+            "text": ["For my first hackathon, I worked on Recyclops, Android app that accurately identifies litter as garbage, recycling, or compost using the Google Vision API.",
+                    "uwEnergyHacks had an environmental focus, so our app was designed to reduce the amount of waste on campus.",
+                    "Recyclops was built using Java, Android Studio, and the aforementioned Google Cloud Platform Vision API.",
+                    "To my surprise, we actually received the award for Best Design!",
+                    "Click here for more details: https://devpost.com/software/recyclops-8wca7d"
+                    ],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 7,
+            "text": ["Autobot is a machine learning model and accompanying UI that simplifies the process of predicting auto insurance payouts.",
+                    "The backend was written using Python, Keras, and Tensorflow, and can predict auto insurance payouts to within $2000.",
+                    "The frontend was created using Visual Basic in Visual Studio. For the purpose of the hackathon, it only served as a proof of concept, but in the future I plan to connect it to the model.",
+                    "Click here for more details: https://github.com/Diogenes2001/Autobot"
+            ],       
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 8,
+            "text": ["asteRisk* is a website that generates a risk factor and insurance quote for properties, using only the URL of the property listing.",
+                "Our goal was to improve awareness of the associated risks when buying properties, and so we used the AWS Translate API to improve accessability.",
+                    "asteRisk* uses web scraping to get data from the listing, and also uses publicly available data such as crime rates and proximity to fire stations.",
+                "It was built using Python, Bootstrap, Flask, OpenStreetMap Nominatim API, and Amazon Web Services Translate API.",
+                "Click here for more details: https://devpost.com/software/hackthe6ix-e0qix6"],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 9,
+            "text": ["GroceryGo is an Android app that calculates the best supermarket within a certain radius to get everything on your shopping list for the lowest price.",
+                    "It uses an automated RPA script to scrape data from supermarket websites on a daily basis. This data is uploaded to Firebase, which the app accesses for its calculations.",
+                    "GroceryGo was built using Kotlin, Android Studio, Google Firebase, and UiPath Studio.",
+                    "Click here for more details: https://devpost.com/software/grocerygo-qh2stv"],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 10,
+            "text": ["TheDungeon is a text-based adventure game I developed in C# using Visual Studio 2015 in high school.",
+                    "It takes about an hour to complete, and involves items, events, and randomly generated mazes.",
+                    "This was built before I learned about object-oriented design, so the design of the game may not be optimal. However, it is still a functioning game, and I plan to remake it in the future.",
+                "Click here for more details: https://github.com/Diogenes2001/TheDungeon"],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 11,
+            "text": ["EthanBot is the chatbot you're talking to right now! It was built using the skills I learned at my first co-op job.",
+                    "This bot was written in JavaScript, and uses Adaptive Cards (as opposed to dialogs) for greater flexibility."
+                ],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 12,
+            "text": ["vm is a vim-like text editor for Linux built for my my CS246E (Advanced Object-Oriented Programming) final project. It supports syntax highlighting, macros, unlimited undoes, custom themes, and many other commands.",
+                "vm uses the ncurses library for C++. It also follows the SOLID principles of object-oriented design, incorporates various design patterns, and adheres to the MVC model.",
+                "Unfortunately, due to University of Waterloo policies I am prohibited from publishing the source code, but I have the executable on my Github.",
+                "Click here for the executable and complete list of commands: https://github.com/Diogenes2001/vm"],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 13,
+            "text": ["Some of the awards I have received include:", 
+                "2018 UWaterloo Faculty of Mathematics W. T. Tutte National Scholarship for $18 000",
+                 "2017 COMC Gold Prize for highest score in Manitoba, Canadian Mathematical Society",
+                "Best Design award, uwEnergyHacks 2019"],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 0
+        },
+        {
+            "num": 14,
+            "text": ["Here are some ways you can get in touch with me:",
+                    "Email: y2788zha@uwaterloo.ca OR ethanzhangr7b3j5@gmail.com",
+                    "Github: https://github.com/Diogenes2001",
+                    "Devpost: https://devpost.com/Diogenes2001",
+                    "Linkedin: https://www.linkedin.com/in/ethan-zhang-23a074178/"],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 0
+        }
+
+    ]
+}
