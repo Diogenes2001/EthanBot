@@ -12,3 +12,10 @@ Open up Microsoft Bot Framework Emulator and click 'open bot'. Under bot URL, en
 
 Enjoy!
 ...or invite me for an interview and I'll answer questions in person ;)
+
+Screenshots:
+
+<p float="left">
+  <img src="./ethanbot1.JPG" width="40%" />
+  <img src="./ethanbot2.JPG" width="40%" /> 
+</p>
