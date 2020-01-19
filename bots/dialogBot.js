@@ -41,10 +41,9 @@ class DialogBot extends ActivityHandler {
             let str = context.activity.text.toLowerCase();
             let curCard = chat[this.cardnum];
             let card;
-            console.log(str);
             if(str == 'back'){
                 if(this.cardnum == 0){
-                    card = makeText("I can't go back any further!", false);
+                    card = makeText(["I can't go back any further!"], false);
                 }else{
                     this.cardnum = curCard.last;
                     card = makeButtons(chat[this.cardnum].text, chat[this.cardnum].buttons);
@@ -56,9 +55,8 @@ class DialogBot extends ActivityHandler {
                 this.cardnum = curCard.choices[str];
                 card = makeButtons(chat[this.cardnum].text, chat[this.cardnum].buttons);
             }else{
-                card = makeText("Sorry, I didn't understand that.", false);
+                card = makeText(["Sorry, I didn't understand that."], false);
             }
-            console.log(card.content.body);
             await context.sendActivity({ attachments: [card] });
             await next();
         });

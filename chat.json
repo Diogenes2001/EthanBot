@@ -8,14 +8,15 @@
                 "about me": 1,
                 "work experience": 2,
                 "hackathons and projects": 5,
-                "awards": 12,
-                "contact": 13
+                "awards": 13,
+                "contact": 14
             },
             "last": 0
         },
         {
             "num": 1,
-            "text": ["I'm originally from Brandon, Manitoba, and moved to Waterloo for university. \nSome of my interests include singing, cooking, trivia, and playing board games. In my free time, I do martial arts and sing in the UW A Cappella Club. I enjoy talking to different people and learning about new ideas, as well as making new friends along the way!"],
+            "text": ["I'm originally from Brandon, Manitoba, and moved to Waterloo for university. Some of my interests include singing, cooking, trivia, and playing board games. ",
+                    "In my free time, I do martial arts and sing in the UW A Cappella Club. I enjoy talking to different people and learning about new ideas, as well as making new friends along the way!"],
             "buttons": ["Back"],
             "choices": {},
             "last": 0
@@ -54,70 +55,110 @@
                     "At the 2019 Intact Datathon, I built Autobot, a machine learning model to predict auto insurance payouts, with an accuracy of within $2000. I also designed a simple, intuitive UI for using the model. ",
                     "At Hack the 6ix 2019, I worked on asteRisk*, a website that generated insurance quotes for properties based on their listings and geographic locations, using data such as crime rates and proximity to fire stations.",
                     "At Hack the North 2019, I developed GroceryGo, an Android app that takes a grocery list and finds the best supermarket to get everything for the lowest price. It used web scraping to upload data from website into a database, which was automatically updated on a daily basis.",
+                    "For my CS246E final project, I created vm, a text editor for Linux based on the vim editor.",
                     "Besides at hackathons, I also work on some projects on my own time. These include TheDungeon, a text-based adventure game I created in high school, and EthanBot, the chatbot you're talking to right now!"],
-            "buttons": ["Recyclops", "Autobot", "asteRisk", "GroceryGo", "TheDungeon", "EthanBot"],
+            "buttons": ["Recyclops", "Autobot", "asteRisk", "GroceryGo", "TheDungeon", "vm", "EthanBot", "Back"],
             "choices": {
                 "recyclops": 6,
                 "autobot": 7,
                 "asterisk": 8,
                 "grocerygo": 9,
                 "thedungeon": 10,
-                "ethanbot": 11
+                "ethanbot": 11,
+                "vm": 12
             },
             "last": 0
         },
         {
             "num": 6,
-            "text": [],
+            "text": ["For my first hackathon, I worked on Recyclops, Android app that accurately identifies litter as garbage, recycling, or compost using the Google Vision API.",
+                    "uwEnergyHacks had an environmental focus, so our app was designed to reduce the amount of waste on campus.",
+                    "Recyclops was built using Java, Android Studio, and the aforementioned Google Cloud Platform Vision API.",
+                    "To my surprise, we actually received the award for Best Design!",
+                    "Click here for more details: https://devpost.com/software/recyclops-8wca7d"
+                    ],
             "buttons": ["Back"],
             "choices": {},
             "last": 5
         },
         {
             "num": 7,
-            "text": [],
+            "text": ["Autobot is a machine learning model and accompanying UI that simplifies the process of predicting auto insurance payouts.",
+                    "The backend was written using Python, Keras, and Tensorflow, and can predict auto insurance payouts to within $2000.",
+                    "The frontend was created using Visual Basic in Visual Studio. For the purpose of the hackathon, it only served as a proof of concept, but in the future I plan to connect it to the model.",
+                    "Click here for more details: https://github.com/Diogenes2001/Autobot"
+            ],       
             "buttons": ["Back"],
             "choices": {},
             "last": 5
         },
         {
             "num": 8,
-            "text": [],
+            "text": ["asteRisk* is a website that generates a risk factor and insurance quote for properties, using only the URL of the property listing.",
+                "Our goal was to improve awareness of the associated risks when buying properties, and so we used the AWS Translate API to improve accessability.",
+                    "asteRisk* uses web scraping to get data from the listing, and also uses publicly available data such as crime rates and proximity to fire stations.",
+                "It was built using Python, Bootstrap, Flask, OpenStreetMap Nominatim API, and Amazon Web Services Translate API.",
+                "Click here for more details: https://devpost.com/software/hackthe6ix-e0qix6"],
             "buttons": ["Back"],
             "choices": {},
             "last": 5
         },
         {
             "num": 9,
-            "text": [],
+            "text": ["GroceryGo is an Android app that calculates the best supermarket within a certain radius to get everything on your shopping list for the lowest price.",
+                    "It uses an automated RPA script to scrape data from supermarket websites on a daily basis. This data is uploaded to Firebase, which the app accesses for its calculations.",
+                    "GroceryGo was built using Kotlin, Android Studio, Google Firebase, and UiPath Studio.",
+                    "Click here for more details: https://devpost.com/software/grocerygo-qh2stv"],
             "buttons": ["Back"],
             "choices": {},
             "last": 5
         },
         {
             "num": 10,
-            "text": [],
+            "text": ["TheDungeon is a text-based adventure game I developed in C# using Visual Studio 2015 in high school.",
+                    "It takes about an hour to complete, and involves items, events, and randomly generated mazes.",
+                    "This was built before I learned about object-oriented design, so the design of the game may not be optimal. However, it is still a functioning game, and I plan to remake it in the future.",
+                "Click here for more details: https://github.com/Diogenes2001/TheDungeon"],
             "buttons": ["Back"],
             "choices": {},
             "last": 5
         },
         {
             "num": 11,
-            "text": [],
+            "text": ["EthanBot is the chatbot you're talking to right now! It was built using the skills I learned at my first co-op job.",
+                    "This bot was written in JavaScript, and uses Adaptive Cards (as opposed to dialogs) for greater flexibility."
+                ],
             "buttons": ["Back"],
             "choices": {},
             "last": 5
         },
         {
             "num": 12,
-            "text": [],
+            "text": ["vm is a vim-like text editor for Linux built for my my CS246E (Advanced Object-Oriented Programming) final project. It supports syntax highlighting, macros, unlimited undoes, custom themes, and many other commands.",
+                "vm uses the ncurses library for C++. It also follows the SOLID principles of object-oriented design, incorporates various design patterns, and adheres to the MVC model.",
+                "Unfortunately, due to University of Waterloo policies I am prohibited from publishing the source code, but I have the executable on my Github.",
+                "Click here for the executable and complete list of commands: https://github.com/Diogenes2001/vm"],
+            "buttons": ["Back"],
+            "choices": {},
+            "last": 5
+        },
+        {
+            "num": 13,
+            "text": ["Some of the awards I have received include:", 
+                "2018 UWaterloo Faculty of Mathematics W. T. Tutte National Scholarship for $18 000",
+                 "2017 COMC Gold Prize for highest score in Manitoba, Canadian Mathematical Society",
+                "Best Design award, uwEnergyHacks 2019"],
             "buttons": ["Back"],
             "choices": {},
             "last": 0
         },
         {
-            "num": 13,
-            "text": [],
+            "num": 14,
+            "text": ["Here are some ways you can get in touch with me:",
+                    "Email: y2788zha@uwaterloo.ca OR ethanzhangr7b3j5@gmail.com",
+                    "Github: https://github.com/Diogenes2001",
+                    "Devpost: https://devpost.com/Diogenes2001",
+                    "Linkedin: https://www.linkedin.com/in/ethan-zhang-23a074178/"],
             "buttons": ["Back"],
             "choices": {},
             "last": 0
